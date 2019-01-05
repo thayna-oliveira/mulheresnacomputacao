@@ -1,0 +1,36 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  background: #5d1049;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+header h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+header h1, header h2{
+  color: #fff;
+  margin: 0;
+}
+
+article img {
+  max-width: 50%;
+  border-radius: 50%;
+}
+
+
+input[type=search] { 	
+  width: 100%;
+  border: 0;
+  box-shadow: 0px -2px 45px 0 rgba(196, 196, 196, 0.11), 0 5px 15px 0 rgba(196, 196, 196, 0.11);
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: .85rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
