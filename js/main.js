@@ -8,6 +8,8 @@
 
 (function ($) {
 
+    $('.not-found').hide();
+
     jQuery.expr[':'].Contains = function (a, i, m) {
         return (a.textContent || a.innerText || "").toUpperCase().indexOf(m[3].toUpperCase()) >= 0;
     };
@@ -35,7 +37,9 @@
                     $(card).find("h2:not(:Contains(" + filter + "))").parent().slideUp();
                     $(card).find("h2:Contains(" + filter + ")").parent().slideDown();
                 } else {
+                    $('.not-found').show();
                     $(card).find(".card").slideDown();
+                    
                 }
                 return false;
             })

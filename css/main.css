@@ -1,9 +1,28 @@
-body{
-  font-family: 'Raleway', sans-serif;
+body {
+  font-family: 'Sarabun', sans-serif;
+  color: #474747;
+  /*background: #f9f9fb;*/
 }
 
+* {
+  font-family: 'Sarabun', sans-serif;
+  color: #474747;
+  line-height: 1.5;
+}
+
+.padding {
+  padding: 2rem;
+}
+
+.not-found {
+  border-radius: 10px;
+  text-align: center;
+  padding: 2.5rem;
+}
+
+/* Header */
+
 header {
-  background: #8d2b73;
   padding-top: 2.5rem;
   padding-bottom: 2.8rem;
 }
@@ -17,9 +36,11 @@ header h2 {
   font-weight: 400;
 }
 
-header h1, header h2{
-  color: #fff;
+header h1,
+header h2 {
+  color: #8d2b73;
   margin: 0;
+  text-align: center;
 }
 
 article img {
@@ -32,7 +53,7 @@ article h2 {
 }
 
 p {
-  font-size: .95rem; 
+  font-size: .95rem;
   line-height: 1.6;
   letter-spacing: .035rem;
 }
@@ -42,13 +63,20 @@ footer {
   padding: 2rem 0 2rem 0;
 }
 
-.search-bar { 	
+.search-bar {
   width: 100%;
-  border: 0;
-  box-shadow: 0px -2px 45px 0 rgba(196, 196, 196, 0.11), 0 5px 15px 0 rgba(196, 196, 196, 0.11);
+  box-shadow: 0px -2px 5px 0 rgba(207, 207, 207, 0.11), 0 5px 8px 0 rgba(207, 207, 207, 0.11);
   margin-top: 2rem;
   padding: 1.5rem;
-  border-radius: .85rem;
   margin-bottom: 2rem;
   font-size: 1.2rem;
+  border: 1px solid #f2f2f2;
+}
+
+
+/* Card */
+.card {
+  /* background: #fdfdfd;*/
+  box-shadow: 0px -2px 5px 0 rgba(207, 207, 207, 0.11), 0 5px 8px 0 rgba(207, 207, 207, 0.11);
+  margin-bottom: 2rem;
 }
