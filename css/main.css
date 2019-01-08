@@ -1,13 +1,27 @@
 body {
   font-family: 'Sarabun', sans-serif;
   color: #474747;
-  /*background: #f9f9fb;*/
+  /* background: #f9f9fb; */
+  padding: 0;
+  margin: 0;
 }
 
 * {
   font-family: 'Sarabun', sans-serif;
   color: #474747;
   line-height: 1.5;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: .65rem;
+  text-decoration: none;
+  border: 1px solid #ffedf7;
+  color: #ffedf7;
+}
+
+.center {
+  text-align: center;
 }
 
 .padding {
@@ -18,6 +32,8 @@ body {
   border-radius: 10px;
   text-align: center;
   padding: 2.5rem;
+  font-size: 1.2rem;
+  color: #898989;
 }
 
 /* Header */
@@ -25,6 +41,7 @@ body {
 header {
   padding-top: 2.5rem;
   padding-bottom: 2.8rem;
+  background: #bd2e78;
 }
 
 header h1 {
@@ -38,7 +55,7 @@ header h2 {
 
 header h1,
 header h2 {
-  color: #8d2b73;
+  color: #ffedf7;
   margin: 0;
   text-align: center;
 }
@@ -49,7 +66,9 @@ article img {
 }
 
 article h2 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #bd2e78;
 }
 
 p {
@@ -65,14 +84,13 @@ footer {
 
 .search-bar {
   width: 100%;
-  box-shadow: 0px -2px 5px 0 rgba(207, 207, 207, 0.11), 0 5px 8px 0 rgba(207, 207, 207, 0.11);
+  /* box-shadow: 0px -2px 5px 0 rgba(207, 207, 207, 0.11), 0 5px 8px 0 rgba(207, 207, 207, 0.11); */
   margin-top: 2rem;
-  padding: 1.5rem;
+  padding: 1.1rem;
   margin-bottom: 2rem;
   font-size: 1.2rem;
   border: 1px solid #f2f2f2;
 }
-
 
 /* Card */
 .card {
