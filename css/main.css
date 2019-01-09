@@ -1,5 +1,5 @@
 body {
-  font-family: 'Sarabun', sans-serif;
+  font-family: 'Nunito', sans-serif;
   color: #474747;
   /* background: #f9f9fb; */
   padding: 0;
@@ -7,7 +7,7 @@ body {
 }
 
 * {
-  font-family: 'Sarabun', sans-serif;
+  font-family: 'Nunito', sans-serif;
   color: #474747;
   line-height: 1.5;
 }
@@ -95,6 +95,9 @@ footer {
 /* Card */
 .card {
   /* background: #fdfdfd;*/
-  box-shadow: 0px -2px 5px 0 rgba(207, 207, 207, 0.11), 0 5px 8px 0 rgba(207, 207, 207, 0.11);
   margin-bottom: 2rem;
+}
+
+.card:hover {
+  box-shadow: 0px -2px 5px 0 rgba(207, 207, 207, 0.11), 0 5px 8px 0 rgba(207, 207, 207, 0.11);
 }
